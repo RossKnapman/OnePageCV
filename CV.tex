@@ -1,0 +1,110 @@
+\documentclass{knapmancv}
+
+\begin{document}
+
+\name{Ross}{Knapman}
+\DOB{15.07.1997}
+
+% Keep moving the stuff below into the CLS file until something goes wrong
+
+\sidebarbackground
+
+% Sidebar content in this minipage
+\noindent
+\begin{minipage}[t]{\sidebarWidth}
+    
+\personalpicture{Picture.jpg}
+
+\vspace{3cm}
+\color{white}
+
+\writename
+
+\vspace{2em}
+
+% Personal information
+
+\sidebarsection{
+\personalinfo{\faBirthdayCake}{15th July 1997}
+\personalinfo{\faHome}{Northallerton, United Kingdom}
+\personalinfo{\faFlag}{British}
+\personalinfo{\faRefresh}{January 2021}
+}
+
+
+\sidebarsection{
+\personalinfo{\faEnvelope}{\href{mailto:knapman@uni-mainz.de}{knapman@uni-mainz.de} (Work)}
+\personalinfo{\faEnvelope}{\href{mailto:rjknapman@gmail.com}{rjknapman@gmail.com} (Personal)}
+\personalinfo{\faGlobe}{\href{https://www.rossknapman.com}{www.rossknapman.com}}
+\personalinfo{\faLinkedin}{\href{https://www.linkedin.com/in/rossknapman97}{rossknapman97}}
+\personalinfo{\faGithub}{\href{https://github.com/RossKnapman}{rossknapman}}
+}
+
+
+% For making dot disappear at start of line
+\newsavebox\ANDbox
+\sbox\ANDbox{\ \textbullet\ }
+
+\sidebarsection{
+    \sidebarheading{Academic Interests}
+    \raggedright%
+    \fontsize{12}{16}\selectfont%
+    \parbox{\textwidth}{
+    \raggedright Magnetism \AND Spintronics \AND Skyrmions \AND Hopfions \AND Topology}
+}
+
+\end{minipage}%
+%
+%
+\begin{minipage}[t]{\mainWidth}
+
+    \mainsection{
+        \section{Education}
+        \lifestage{2019--Present}{PhD}{Johannes Gutenberg-Universit\"at Mainz}{Mainz, Germany}{}{Preliminary Title: Creation of Topological Magnetic Structures by Electrical Means. \newline
+        Prelinary Supervisor: Dr.\ Karin Everschor-Sitte. \newline
+    Secondary Supervisor: Prof.\ Dr.\ Jairo Sinova}
+        \lifestage{2015--2019}{Master of Physics}{Durham University}{Durham, United Kingdom}{First Class Honours}{Master's Project: \textit{Micromagnetic Simulations of Antiskyrmions} Supervised by Prof.\ Peter Hatton}
+        \lifestage{2013--2015}{A Levels}{Paston Sixth Form College}{North Walsham, United Kindom}{A*A*A*Aaa}{Physics, Chemistry, Mathematics, Further Mathematics, AS Biology, AS Critical Thinking}
+        \lifestage{2011-2013}{GCSEs}{Broadland High School}{Hoveton, United Kingdom}{7A*, 3A}{}
+    }
+
+    \mainsection{
+        \section{Experience}
+
+        \subsection{Work Experience}
+        \lifestage{07/2018--08/2018}{Computational Condensed Matter Physics Internship}{Durham University}{Durham, United Kingdom}{}{%
+        \begin{itemize}
+            \item Wrote a \href{https://rossknapman.com/MuDip/}{Python module} in C\texttt{++} to predict dipolar fields in magnetic structures
+            \item Supervised by Prof.\ Tom Lancaster
+        \end{itemize}}
+        \lifestage{06/2017--09/2017}{DAAD RISE Research Internship}{DLR Oberpfaffenhofen}{We{\ss}ling, Germany}{}{%
+        \begin{itemize}
+        \item Highly competitive research internship funded by the DAAD
+        \item Worked as part of a small team developing a lidar system to detect atmospheric turbulence
+        \item Supervised by Dr.\ Jonas Herbst and Dr.\ Patrick Vrancken
+        \end{itemize}}
+        \lifestage{06/2016--08/2016}{Galaxy Survey Visualisation Internship}{University of Queensland}{Brisbane, Australia}{}{%
+        \begin{itemize}
+        \item Produced virtual reality mobile apps to visualise galaxy redshift surveys
+        \item Worked primarily with C\#
+        \item Participated in discussions with researchers in cosmology
+        \item Supervised by Dr.\ Ed Macaulay
+        \end{itemize}}
+
+        \subsection{Leadership}
+        \leadership{2018--2019}{Co-President}{Durham University Physics Society}
+        \leadership{2018--2019}{Secretary}{Durham University Astronomical Society}
+        \leadership{2017--2018}{Treasurer}{Durham University Astronomical Society}
+        \leadership{2016--2018}{Publicity Officer}{Durham University Physics Society}
+        \leadership{2016--2017}{Webmaster}{Durham University Astronomical Society}
+
+%        \subsection{Teaching}
+%        \teaching{WS 2020--2021}{Tutor}{Experimental Physics 5c (Condensed Matter Physics)}{Prof.\ Demsar Jure}
+%        \teaching{SS 2020}{Senior Assistant}{Mathematical Calculation Methods}{Prof.\ Dr.\ Jairo Sinova, Dr.\ Karin Everschor-Sitte}
+%        \teaching{WS 2019--2020}{Tutor}{Experimental Physics 5a (Atomic and Quantum Physics)}{Prof.\ Randolf Pohl}
+
+    }
+\end{minipage}
+
+
+\end{document}
